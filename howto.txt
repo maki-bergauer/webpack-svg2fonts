@@ -1,0 +1,7 @@
+npm init -y
+npm i webpack -D
+
+npm install --save-dev vusion-webfonts-generator
+
+
+# npm cache clean -f && rm -rf node_modules/ && rm -rf build/ && rm -rf package-lock.json 

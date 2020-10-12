@@ -1,0 +1,4 @@
+node_modules
+build
+/icons/*.svg
+package-lock.json
