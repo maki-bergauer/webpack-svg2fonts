@@ -18,8 +18,9 @@ webfontsGenerator({
     dest: `${__dirname}/build/custom-fonts/`,
     fontName: 'alarm-iconfonts',
     html: true,
-    
+    cssTemplate: `${__dirname}/src/template.hbs`,
     templateOptions: {
+        color1: "#227411",
         classPrefix: 'custom-',
         baseSelector: '.custom'
     }
